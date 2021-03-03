@@ -1,0 +1,370 @@
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=80d33c19-929f-4d11-a8f6-3dae838c9efa");
+@font-face{
+
+font-family:"Industry W05 Bold";
+ src:url("Fonts/9af0d4f1-307f-4a22-b5a2-c55bf0d9ec8b.woff2") format("woff2"),
+url("Fonts/8a08b405-1b57-425c-9bc2-f90381b404b9.woff") format("woff");
+
+}
+@font-face{
+
+font-family:"Normative W01 Regular";
+ src:url("Fonts/8dcd4d2c-97e7-4b6a-acd3-8e95ebe05d5c.woff2") format("woff2"),
+url("Fonts/956fe778-246a-47d9-b148-4e983556fb3c.woff") format("woff");
+
+}
+@font-face{
+
+font-family:"Normative W01 Medium";
+ src:url("Fonts/5ec7316a-9a46-4ed9-953e-703238ff1087.woff2") format("woff2"),
+url("Fonts/0c63116f-e23f-4b0a-8fd2-054456c9deb3.woff") format("woff");
+
+}
+@font-face{
+
+font-family:"Normative W01 Bold";
+ src:url("Fonts/e923893f-121b-4553-b569-7c74b45de7aa.woff2") format("woff2"),
+url("Fonts/eeb988df-8a91-4ad2-bc81-43dfc56749ea.woff") format("woff");
+
+}
+*,
+*::before,
+*::after {
+	box-sizing:border-box;
+}
+::placeholder {
+	color:#000;
+	opacity:1;
+}
+:-ms-input-placeholder {
+	color:#000;
+}
+::-ms-input-placeholder {
+	color:#000;
+}
+a {
+	text-decoration:none;
+}
+body {
+	background:#000;
+	color:#fff;
+	font-family:"Normative W05",
+	sans-serif;
+	margin:0;
+	padding:0;
+}
+img {
+	display:block;
+	max-width:100%;
+}
+ol, ul {
+    list-style: none;
+}
+#container {
+	margin:0 auto;
+	max-width:1600px;
+	width:100%;
+}
+.banner {
+	background:#000 url(../images/BGLayer.png) no-repeat top center/100%;
+	min-height:64.375rem;
+	padding:2.5rem 0 10.625rem;
+	width:100%;
+	background-size:cover;
+}
+#inner-content {
+	padding:0 1.25rem;
+}
+.brands-logo-wrapper {
+	margin:0 auto;
+	width:25.375rem;
+}
+.brands-logo-wrapper.top {
+	width:14.6875rem;
+}
+.halo-wrapper {
+	text-align:center;
+}
+.halo-game {
+	margin:0 auto;
+	padding-bottom:3.125rem;
+	width:27.5rem;
+}
+.winner-img {
+	text-align:right;
+}
+.winner-img img {
+	display:inline-block;
+	width:36.0625rem;
+}
+.content-block {
+    background: url(../images/Backgroundcenter.png) repeat-y top center/100%;
+    margin-top: 3.5rem;
+	border-top: 0;
+border-bottom: 0;
+margin-top: 3.5rem;
+margin-bottom: 3.5rem;
+padding: 0 1.375rem;
+position: relative;
+}
+.content-block::before {
+    background: url(../images/bg-main-top_v2.png) no-repeat bottom center/contain;
+}
+.content-block::after, .content-block::before {
+    content: "";
+    left: 0;
+    position: absolute;
+    width: 100%;
+}
+.content-block::after, .content-block::before {
+    height: 3.7rem;
+}
+.content-block::before {
+    top: -3.7rem;
+}
+.content-block::after {
+    bottom: -3.7rem;
+}
+.content-block::after {
+    background: url(../images/backgroundbottom.png) no-repeat top center/100%;
+}
+h2 {
+    color: #6fccde;
+    font-family: "Industry W05",sans-serif;
+    font-size: 2.125rem;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: uppercase;
+}
+p {
+    font-size: 1.5rem;
+    line-height: 1.4;
+    padding-bottom: 1.5rem;
+}
+.fld-input{
+	
+	display: block;
+    color: #000;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+	border: none;
+    font-size: 18px;
+	font-weight:500;
+}
+.btn-cont{
+	
+	-webkit-box-align: center;
+-ms-flex-align: center;
+align-items: center;
+-ms-flex-item-align: start;
+align-self: flex-start;
+-ms-flex-line-pack: center;
+align-content: center;
+background: #fec23e;
+border: none;
+border-radius: .1875rem;
+color: #000;
+cursor: pointer;
+display: -webkit-inline-box;
+display: -ms-inline-flexbox;
+display: inline-flex;
+font-size: 1.5rem;
+font-family: "Industry W05",sans-serif;
+font-weight: 700;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+justify-content: center;
+min-height: 3.25rem;
+padding: .875rem;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+width: 100%;
+}
+.footer {
+    background: #000;
+    border-top: .75rem solid #6fccde;
+        border-top-width: 0.75rem;
+    font-size: 1.125rem;
+    margin: 0 auto;
+    padding: 7.5rem 0 2rem;
+    position: relative;
+    text-align: center;
+}
+
+.floating-image {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -10.3rem;
+    max-width: 26.25rem;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.xbox {
+    max-width: 11.5rem;
+}
+.game img, .xbox img {
+    width: 100%;
+}
+.game {
+    max-width: 14.375rem;
+    margin-left: .75rem;
+}
+.footer ul {
+    color: #6fccde;
+    font-family: "Industry W05",sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: .75rem;
+    padding: 1rem 0;
+    text-transform: uppercase;
+}
+.footer li {
+    display: inline-block;
+    margin: 0 0 .3125rem;
+    vertical-align: middle;
+}
+.footer a {
+    color: inherit;
+    font-size: inherit;
+}
+.footer li::after {
+    content: "|";
+    padding: 0 1.25rem;
+}
+.footer p {
+    font-size: inherit;
+    letter-spacing: .02em;
+    margin: 0 auto;
+    padding-bottom: 1.5625rem;
+    width: 100%;
+}
+.mondelez-logo {
+    margin: 3.125rem auto 1.25rem;
+    width: 14.6875rem;
+}
+.snacks-banner-wrapper{
+	margin-bottom: 20px;
+    width: 100%;
+    position: relative;
+    max-width: 580px;
+}
+.snacks-banner-wrapper img{
+	max-width:100%;
+}
+
+.snacks-banner{
+	width:50%;
+	position:absolute;
+	top:52px;
+	right:30px;
+}
+.snacks-banner .title{
+color:#6fccde;
+font-size:24px;
+font-weight:600;
+}
+.snacks-banner p{
+	font-size:18px;
+	color:#fff;
+}
+.snacks-banner p a{
+	color:#6fccde;
+}
+@media screen and (min-width: 768px) {
+	.banner {
+		background:url(../images/BGLayer.png) no-repeat top center/100%;
+		padding:1.875rem 0 4.375rem;
+	}
+	#inner-content {
+		display:-webkit-box;
+		display:-ms-flexbox;
+		display:flex;
+		-webkit-box-pack:justify;
+		-ms-flex-pack:justify;
+		justify-content:space-between;
+		padding:0 0 0 8.4375rem;
+		width:100%;
+	}
+	#inner-content > div:first-child {
+		padding-top:2.5rem;
+	}
+	#inner-content > div:last-child {
+		/* width:51.3125rem; */
+		width:40rem;
+	} 
+	.brands-logo-wrapper.top {
+		width:21.875rem;
+	}
+	.halo-wrapper {
+		text-align:right;
+	}
+	.halo-game {
+		margin-top:1.875rem;
+		padding-bottom:1.25rem;
+	}
+	.winner-img {
+		padding-bottom:1.875rem;
+	}
+	.winner-img img {
+		width:48.125rem;
+	}
+	#inner-content > div:last-child > div:last-child {
+    /* padding-right: 14.25rem; */
+}
+.content-block {
+    padding: 0 2.5rem;
+    width: 37.25rem;
+}
+
+p{
+	font-size: 1.125rem;
+}
+.btn-cont{
+	min-width: 9.25rem;
+font-size: 1.125rem;
+width: auto;
+min-height: 0;
+padding: .75rem;
+margin: 0 auto 0 0;
+}
+.footer {
+    background: #000 url(../images/footer_bg.jpg) no-repeat top center/100%;
+    border-top-width: .625rem;
+    font-size: .875rem;
+    padding: 4.375rem 2rem 2rem;
+}
+.floating-image {
+    max-width: 44.375rem;
+    margin: 0;
+    left: 12.5rem;
+}
+.footer ul {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+}
+.footer li {
+    margin: 0 0 .75rem;
+}
+.footer li::after {
+    padding: 0 .75rem;
+}
+.desc {
+    width: 100%;
+    margin: 0 auto;
+}
+.footer p {
+    padding-bottom: 2rem;
+}
+}
